@@ -1,0 +1,42 @@
+body{
+    width: 10vw;
+    height: 10vh;
+    margin: 0;
+}
+
+#g1{
+    display: grid;
+    grid-template-columns: 23vw 1fr;
+    grid-template-rows: 1500px;
+}
+
+#g1_1{
+    background-color:#708090;
+    padding: 10px;
+    color:white;
+
+    display: grid;
+    grid-template: 
+    "a"300px
+    "b"500px
+    /1fr;
+}
+
+#g1_1_1{
+height: 13vw;
+background-image: url('file:///C:/Users/beardedbearbro/Desktop/GRID_Challange/photo-1487750022055-974f66325e0f.webp');
+background-size: 100% 100%;
+
+box-shadow: 0px 10px 25px #333;
+grid-area: a;
+
+
+}
+#g1_1_2
+{
+    padding:10px;
+    font-family: "Rubik", sans-serif;
+}
+
+
+
